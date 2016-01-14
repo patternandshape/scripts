@@ -21,4 +21,18 @@ $(document).ready(function(){
 //     });
 
 //99 Bottles of Beer Practice
+for (var i=99; i>=0; i--){
+  var counter = i-1;
+  if(i===0){
+    $("p").append("We're out of beer!");
+}else if (i===1) {
+  $("p").append(i + " bottle of beer on the wall " + i + " bottle of beer. Take one down, pass it around, " + counter + " bottle of beer on the wall! ");
+}
+  $("p").append(i + " bottles of beer on the wall " + i + " bottles of beer. Take one down, pass it around, " + counter + " bottles of beer on the wall! ");
+}
+
+// 99 bottles of beer on the wall
+// 99 bottles of beer
+// take one down, pass it around
+// 98  bottles of beer on the wall
 });

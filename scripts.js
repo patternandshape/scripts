@@ -13,4 +13,12 @@ $(document).ready(function(){
   // console.log(parents);
 
 
+//Ice Cream Practice
+// var flavors = ["vanilla","chocolate","strawberry","pistachio"];
+//
+//     flavors.forEach(function(flavor){
+//       $("p").append("<li>" + flavor + "</li>");
+//     });
+
+//99 Bottles of Beer Practice
 });
